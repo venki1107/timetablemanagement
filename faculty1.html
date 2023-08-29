@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>college1</title>
+        <style>
+            table,td,th{
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+                
+
+            }
+            .head{
+                background-color: blanchedalmond;
+                font-size: 20px;
+            }
+            .side{
+                padding:50px 0px 20px 100px;
+                font-size: 20px;
+            }
+            .side{
+                padding:90px 0px 20px 400px;
+                font-size: 30px;
+            }
+            .value{
+                padding-left: 200px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <div class="side">
+            <label for="faculty" style="padding-right: 60px; "> Select department name:</label>
+            <select name="college" id="faculty" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">MECH</option>
+              </select>
+        </div>
+        <section class="value">
+            <h1 style="padding-left: 85%;"><a href="faculty2.html"><button type="button" name="add" value="add">ADD</button></a></h1>    
+            <table style="padding: 120px 0px 0px 40px;" >
+                <tr class="head" >
+                    <th style="padding:3px 150px 3px 3px;">FACULTYNAME</th>
+                    <th style="padding:3px 150px 3px 3px;">SUBJECTNAME</th>
+                    <th style="padding-right: 50px;">EDIT</th>
+                    <th>DELETE</th>
+                </tr>
+                <tr>
+                    <td>venki</td>
+                    <td>M-1</td>
+                    <td><a href="faculty2.html"><button type="button" name="edit"value="edit">EDIT</button></a></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>chekri</td>
+                    <td>physics</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>manohar</td>
+                    <td>chemistry</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>praneeth</td>
+                    <td>engineering drawing</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+            </table>
+        </section>
+        </form>
+    </body>
+</html>

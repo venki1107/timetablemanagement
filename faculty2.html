@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>collegelist</title>
+        <style>
+            .clgname{
+                background-color: antiquewhite;
+                
+            }
+            .save{
+                padding: 0px 0px 50px 600px;
+            }
+            .side{
+                padding:120px 0px 40px 400px;
+                font-size: 25px;
+            }
+            .side1{
+                padding:5px 0px 40px 400px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="clgname">
+            <form >
+                <div class="side">
+                    <label for="C_name:" style="padding-right: 60px; "> select department name:</label>
+                    <select name="college" id="C_name" style="font-size: large;padding: 3px 40px 3px 3px;">
+                        <option value="SELECT">--select--</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MECH">MECH</option>
+                    
+                      </select>
+                </div>
+                <div class=" side1">
+                    <label for="fa_name:" style="padding-right: 20px;"> Enter the faculty name:</label>
+                    <input type="text" id="fa_name" name="faculty_name"  style="font-size: large;"><br>
+                </div>
+                <div class="save" >
+                    <a href="./faculty1.html"><input  type="button" name="save" value="SAVE"></a>
+                    <a href="./faculty1.html"><input type="button" name="cancel" value="CANCEL"></a>            
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>college1</title>
+        <style>
+            table,td,th{
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+                
+
+            }
+            .head{
+                background-color: blanchedalmond;
+            }
+            .side{
+                padding:50px 0px 20px 400px;
+                font-size: 25px;
+            }
+            .side1{
+                padding:5px 0px 10px 400px;
+                font-size: 25px;
+            }
+            .value{
+                padding-left: 300px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <div class="side">
+            <label for="subname:" style="padding-right: 60px; "> select college name:</label>
+            <select name="subject" id="subname" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="AVANTHI">AVANTHI</option>
+                <option value="NSRIT">NSRIT</option>
+            
+              </select>
+        </div>
+        <div class="side1">
+            <label for="subname:" style="padding-right: 30px; "> select department name:</label>
+            <select name="subject" id="subname" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">MECH</option>
+            
+              </select>
+        </div>
+        <div class="side1">
+            <label for="subname:" style="padding-right: 80px; "> select course name:</label>
+            <select name="subject" id="subname" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="B.TECH">B.TECH</option>
+                <option value="M.TECH">M.TECH</option>
+                <option value="MBA">MBA</option>
+            
+              </select>
+        </div>
+        <div class="side1">
+            <label for="subname:" style="padding-right: 80px; "> select semister id:</label>
+            <select name="subject" id="subname" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="SEM-1">SEM-1</option>
+                <option value="SEM-2">SEM-2</option>
+                <option value="SEM-3">SEM-3</option>
+                <option value="SEM-4">SEM-4</option>
+                <option value="SEM-5">SEM-5</option>
+                <option value="SEM-6">SEM-6</option>
+                <option value="SEM-7">SEM-7</option>
+                <option value="SEM-8">SEM-8</option>
+            
+              </select>
+        </div>
+        <section class="value">
+            <h1 style="padding-left: 75%;"><a href="subject2.html"><button type="button" name="add" value="add">ADD</button></a></h1>    
+            <table style="padding: 120px 0px 0px 40px;" >
+                <tr class="head" >
+                    <th style="padding:3px 300px 3px 3px;">SUBJECT NAMES</th>
+                    <th style="padding-right: 50px;">EDIT</th>
+                    <th>DELETE</th>
+                </tr>
+                <tr>
+                    <td>MATHS</td>
+                    <td><a href="subject2.html"><button type="button" name="edit"value="edit">EDIT</button></a></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>PHYSICS</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>ENGINEERING DRAWING</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>CHEMISTRY</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+            </table>
+        </section>
+    </form>
+    </body>
+</html>

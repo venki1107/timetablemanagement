@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>collegelist</title>
+        <style>
+            .clgname{
+                background-color: antiquewhite;
+                
+            }
+            .save{
+                padding: 0px 0px 50px 600px;
+                gap: 15px;
+                display: flex;
+
+            }
+            .side{
+                padding:120px 0px 40px 400px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <section class="clgname">
+            <div>
+                <div class="side">
+                    <label for="C_name:" style="padding-right: 20px;"> Enter the college name:</label>
+                    <a href="./college1.html"><input type="text" id="C_name" onkeypress="return a()" name="clg_name" value="" style="font-size: large;"></a><br>
+                </div>
+                <div class="save" >
+                    <a href="./college1.html"><input  type="button" name="save" value="SAVE"  ></a>
+                    <a href="./college1.html"><input type="button" name="cancel" value="CANCEL"></a> 
+                 </div>
+            </div>
+        </section>
+        <script>
+               let a =function(){
+                if(event.keycode==13){
+                    return false
+                }
+                else return true
+            }
+        </script>
+    </body>
+    
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>college1</title>
+        <style>
+            table,td,th{
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+                
+
+            }
+            .head{
+                background-color: blanchedalmond;
+            }
+            .side{
+                padding:100px 0px 20px 250px;
+                font-size: 25px;
+            }
+            .side1{
+                padding:5px 0px 10px 240px;
+                font-size: 25px;
+            }
+            .values{
+                padding-left: 200px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="side">
+            <label for="Co_name:" style="padding-right: 60px; "> Enter the college name:</label>
+            <select name="course" id="Co_name" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="AVANTHI">AVANTHI</option>
+                <option value="NSRIT">NSRIT</option>
+            
+              </select>
+        </div>
+        <div class="side1">
+            <label for="Co_name:" style="padding-right: 60px; "> Enter the department name:</label>
+            <select name="course" id="Co_name" style="font-size: large;padding: 3px 40px 3px 3px;">
+                <option value="SELECT">--select--</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">MECH</option>
+            
+              </select>
+        </div>
+        <section class="values">
+            <h1 style="padding-left: 50%;"><a href="course2.html"><button type="button" name="add" value="add">ADD</button></a></h1>    
+            <table style="padding: 120px 0px 0px 40px;" >
+                <tr class="head" >
+                    <th style="padding:3px 300px 3px 3px;">COURSE NAME</th>
+                    <th style="padding-right: 50px;">EDIT</th>
+                    <th>DELETE</th>
+                </tr>
+                <tr>
+                    <td>B.TECH</td>
+                    <td><a href="course2.html"><button type="button" name="edit"value="edit">EDIT</button></a></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>M.TECH</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+                <tr>
+                    <td>MBA</td>
+                    <td><button type="button" name="edit"value="edit">EDIT</button></td>
+                    <td><button type="button" name="edit"value="delete">DELETE</button></td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</html>
